@@ -26,7 +26,7 @@ On TapeOut, a circuit is an NFT whose name and description are just claims. AI a
 1. **Combinational truth tables** — `eval(id, input)` for all 2ⁿ inputs (n ≤ 8). Processor 0, circuit #1 → `00→0, 01→1, 10→1, 11→0` → **XOR2** (4 gates).
 2. **Spec verification** — 25 reference functions (gates, adders, MUX, comparators, multipliers, popcount, parity) or a custom output table. Processor 0 #2 vs `NAND2` → ✓ all 4 inputs; vs `AND2` → ✗ differs on 4/4.
 3. **Sequential simulation** — `step(id, state, input) → (next, output)` for every (state, input) pair; reconstructs the state machine and its cycle from reset. Processor 0 #4 (2 latches, 10 gates) → **mod-3 counter**, output pulses every 3 steps. (`eval` on it reverts with `has latch: use step`.)
-4. **Processor index** — every processor registered in the X Layer factory with name, circuit count and up to 3 sampled circuits identified; built by a polite, resumable crawler and published as `data/index.json`.
+4. **Processor index** — every processor registered in the X Layer factory with name, circuit count and up to 3 sampled circuits identified; built by a polite, resumable crawler and published as `data/index.json`. Snapshot 25 Nov 2026: **451 processors, 237 with circuits, 11,924 circuits**; 628 circuits sampled, 273 identified by behaviour (most common: NAND2 ×120, FULL_ADDER ×90, NOT ×16, HALF_ADDER ×10, mod-3 counter ×9, MUX2 ×8). The rest are larger than the polite sampling cap.
 5. **Fingerprints** — SHA-256 of the behaviour, so identical functions are recognisable across processors regardless of their names.
 
 ## Quick start

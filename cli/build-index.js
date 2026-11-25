@@ -34,6 +34,7 @@ try {
     if (i % 10 === 0) { await save(); console.log(`cpu ${i}/${f.cpuCount} ${info.name} circuits=${info.circuits}`); }
   }
   idx.complete = idx.cpus.length >= idx.cpuCount;
+  if (idx.complete) delete idx.stoppedReason;
 } catch (e) {
   idx.stoppedReason = e.message; console.error('STOP:', e.message);
 } finally {
