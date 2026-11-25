@@ -1,0 +1,1802 @@
+{
+ "cpus": [
+  {
+   "index": 0,
+   "cpu": "0x839bdd6fa7a66416a609a735e11de5411b98574e",
+   "name": "OnlyTestXLayer",
+   "nextId": 105,
+   "circuits": 104,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 4,
+     "table": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "1fcf6b4f921d54ec",
+     "match": [
+      "XOR2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "cpu": "0x0565ea48ca41ae559d8d491dbb0a9ec945db551b",
+   "name": "My4004",
+   "nextId": 100,
+   "circuits": 99,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "cpu": "0xe0ef4fffd869cbd24b2f83e6d2d83109937e05ff",
+   "name": "Xehemoth",
+   "nextId": 26,
+   "circuits": 25,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "cpu": "0x006b107b889347dedd52019fae9daa60fce47947",
+   "name": "TapeOut",
+   "nextId": 9,
+   "circuits": 8,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "cpu": "0x68f65046fdeab90d8db376c27b5e6ae159d240cc",
+   "name": "RTX",
+   "nextId": 11,
+   "circuits": 10,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "cpu": "0xfd7b31b5a307b0c863772bb162e10d2eb4b7a819",
+   "name": "BEM",
+   "nextId": 13,
+   "circuits": 12,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "cpu": "0x90b3ba18c32e9e9e6ea5e2cca3e68b86afbe7cdb",
+   "name": "TapeKit",
+   "nextId": 11,
+   "circuits": 10,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "cpu": "0xd11e62a6231c101add91a10f6c2b406d2d1f043b",
+   "name": "okx",
+   "nextId": 11,
+   "circuits": 10,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "cpu": "0xfd32fbaeef90726f00aafdf2d2cf3d9c6fbd6b8d",
+   "name": "Behemoth",
+   "nextId": 12,
+   "circuits": 11,
+   "sample": [
+    {
+     "id": 1,
+     "error": "fetch failed"
+    },
+    {
+     "id": 2,
+     "error": "fetch failed"
+    },
+    {
+     "id": 3,
+     "error": "fetch failed"
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "cpu": "0x6a5bfc4147b3aaa23bd494789417309f8a64fd91",
+   "name": "Mygo",
+   "nextId": 9,
+   "circuits": 8,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "cpu": "0x5ca58d1ee9babf7c716e55a37a6f2e780250a1ba",
+   "name": "XDOG",
+   "nextId": 10,
+   "circuits": 9,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 0,
+     "outputs": 1,
+     "latches": 2,
+     "gates": 10,
+     "period": 3,
+     "fingerprint": "8e1598ee5ce2fc6b",
+     "match": [
+      "COUNTER_MOD3",
+      "PULSE_EVERY_3"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "cpu": "0xfb6c4359b3624dd58ffe3ed5d34dbade2782f843",
+   "name": "TapeOut0KX",
+   "nextId": 3,
+   "circuits": 2,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      0
+     ],
+     "fingerprint": "8f5d3d0ed1621f91",
+     "match": [
+      "NOT"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      0
+     ],
+     "fingerprint": "8f5d3d0ed1621f91",
+     "match": [
+      "NOT"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "cpu": "0x10af08dc3a03076d6e58054392c357ba22873c24",
+   "name": "Tapeout",
+   "nextId": 5,
+   "circuits": 4,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "cpu": "0x5c44c6b4dd5ef1f5cf49bff0dc282f5d7ad2a783",
+   "name": "BehemothOKX",
+   "nextId": 1,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 14,
+   "cpu": "0x9775618366492484d6b731ee6c8ee12c3c879cfc",
+   "name": "Tepout",
+   "nextId": 1,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 15,
+   "cpu": "0xecfcccd10a2993ad73eddda3f88a767c89508331",
+   "name": "TapX",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 16,
+   "cpu": "0xc87e52ee14a51b6ec9ddcb23a9c0aaf498515123",
+   "name": "TapeOk",
+   "nextId": 4,
+   "circuits": 3,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 9,
+     "outputs": 5,
+     "latches": 0,
+     "gates": 72
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "cpu": "0xd041714faffea320cc83d769c37608b00601b76f",
+   "name": "OnlyTestXLayer",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 18,
+   "cpu": "0x073ce99d5fe01293d539bc1c3a45434a7d1f4f85",
+   "name": "BEMCAT",
+   "nextId": 2,
+   "circuits": 1,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "cpu": "0x9eecbef7401c4fe0515a483ddb5a995347ac7bb7",
+   "name": "AreYouOk",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 20,
+   "cpu": "0xc3c6454ea8c5d9f1bf0fddbd3efe111d58e08d07",
+   "name": "OK",
+   "nextId": 2,
+   "circuits": 1,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      0
+     ],
+     "fingerprint": "8f5d3d0ed1621f91",
+     "match": [
+      "NOT"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "cpu": "0x07bbcc317a7cb3574817510f49ea0999b12a5e63",
+   "name": "小孩哥",
+   "nextId": 2,
+   "circuits": 1,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 22,
+   "cpu": "0x88dfb0a852cc0af484c2f50f3e754ff351563e6a",
+   "name": "tapcat",
+   "nextId": 9,
+   "circuits": 8,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 23,
+   "cpu": "0x4137a3c88761745642749f63d45b821abaf9c454",
+   "name": "tapdog",
+   "nextId": 3,
+   "circuits": 2,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      0
+     ],
+     "fingerprint": "8f5d3d0ed1621f91",
+     "match": [
+      "NOT"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      0
+     ],
+     "fingerprint": "8f5d3d0ed1621f91",
+     "match": [
+      "NOT"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 24,
+   "cpu": "0x380b7b3f8e28c3d71ee1db78b6f0bf9ca914d87d",
+   "name": "牛来",
+   "nextId": 2,
+   "circuits": 1,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 25,
+   "cpu": "0xa78147b643d2a5e7f432d405f9f528dca3ee2aa4",
+   "name": "Star",
+   "nextId": 2,
+   "circuits": 1,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      0
+     ],
+     "fingerprint": "8f5d3d0ed1621f91",
+     "match": [
+      "NOT"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 26,
+   "cpu": "0x9dc72fc28a0a1b3c378dc59b6a3192cb0c578ba4",
+   "name": "SI",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 27,
+   "cpu": "0x2a6a6182d1cc7ed7d8e190a151381ba3fec9d79f",
+   "name": "ANB · Atomic Neural Base",
+   "nextId": 1,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 28,
+   "cpu": "0xc99149860ff3987727466311930a3987968385c0",
+   "name": "Ai",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 29,
+   "cpu": "0x526b96238cc418d909005e2e2d79e327da4bd0f7",
+   "name": "My 4004",
+   "nextId": 10,
+   "circuits": 9,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 2,
+     "table": [
+      0,
+      1
+     ],
+     "fingerprint": "be7c0c03010bdd56",
+     "match": [
+      "BUF"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 30,
+   "cpu": "0x2046aa63bfb03f393ad85a518011fdf8af3ddb53",
+   "name": "My 4004",
+   "nextId": 6,
+   "circuits": 5,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 16,
+     "outputs": 16,
+     "latches": 0,
+     "gates": 1204
+    }
+   ]
+  },
+  {
+   "index": 31,
+   "cpu": "0x33143eb14ad89eea5fe2885366c7d09152623ff7",
+   "name": "My 4004",
+   "nextId": 1,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 32,
+   "cpu": "0x81bc837db80a6be0b5226ebf7c07f131369951c4",
+   "name": "tapesend",
+   "nextId": 3,
+   "circuits": 2,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 33,
+   "cpu": "0xb79f20521c577c4aa7625bd2289f00e7c0e83cf3",
+   "name": "OKSEND",
+   "nextId": 6,
+   "circuits": 5,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 34,
+   "cpu": "0x04e975d2d6ec301b566487216be1e4d88cad07d7",
+   "name": "BEMS",
+   "nextId": 1,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 35,
+   "cpu": "0xba1c6303032df7aa398c5cc386f3bdb28b6c5660",
+   "name": "DeWEB",
+   "nextId": 2,
+   "circuits": 1,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 36,
+   "cpu": "0xce8a040e972e4781e1809d4552a829ecd438d372",
+   "name": "欧意人生",
+   "nextId": 3,
+   "circuits": 2,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 37,
+   "cpu": "0xee70c7e14823c67b8e642f0136408cc3fc8c8359",
+   "name": "招财",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 38,
+   "cpu": "0xc7a0bff8a1eff0111e1bb8fc2c372cee162c578a",
+   "name": "OpenIdentity",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 39,
+   "cpu": "0xca6fa40e0b548aba9132f3f5050ee4c4c5eb7340",
+   "name": "SHA-256 IP Core",
+   "nextId": 13,
+   "circuits": 12,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 3,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 9,
+     "table": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3
+     ],
+     "fingerprint": "76eb82a9578290ad",
+     "match": [
+      "FULL_ADDER"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 5,
+     "table": [
+      0,
+      1,
+      1,
+      2
+     ],
+     "fingerprint": "4db862dc2a91be23",
+     "match": [
+      "HALF_ADDER"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 3,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 4,
+     "table": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "fingerprint": "846a6b51872d843d",
+     "match": [
+      "MUX2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 40,
+   "cpu": "0xd5bc8e63950aa26f0a633d1d9851a20feacac5bb",
+   "name": "Keccak-256 IP Core",
+   "nextId": 11,
+   "circuits": 10,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 3,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 9,
+     "table": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3
+     ],
+     "fingerprint": "76eb82a9578290ad",
+     "match": [
+      "FULL_ADDER"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 9,
+     "outputs": 5,
+     "latches": 0,
+     "gates": 36
+    },
+    {
+     "id": 3,
+     "inputs": 24,
+     "outputs": 24,
+     "latches": 0,
+     "gates": 1488
+    }
+   ]
+  },
+  {
+   "index": 41,
+   "cpu": "0xeab9f1fba310dbfd80cd2090679c80f155257f88",
+   "name": "secp256k1",
+   "nextId": 15,
+   "circuits": 14,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 3,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 9,
+     "table": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3
+     ],
+     "fingerprint": "76eb82a9578290ad",
+     "match": [
+      "FULL_ADDER"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 5,
+     "table": [
+      0,
+      1,
+      1,
+      2
+     ],
+     "fingerprint": "4db862dc2a91be23",
+     "match": [
+      "HALF_ADDER"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 3,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 4,
+     "table": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "fingerprint": "846a6b51872d843d",
+     "match": [
+      "MUX2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 42,
+   "cpu": "0xb9ea8dba8eb7d268e7fd0cdb16ef23d32c4160d1",
+   "name": "Blonskr",
+   "nextId": 8,
+   "circuits": 7,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 3,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 9,
+     "table": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3
+     ],
+     "fingerprint": "76eb82a9578290ad",
+     "match": [
+      "FULL_ADDER"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 9,
+     "outputs": 5,
+     "latches": 0,
+     "gates": 36
+    },
+    {
+     "id": 3,
+     "inputs": 30,
+     "outputs": 30,
+     "latches": 0,
+     "gates": 2355
+    }
+   ]
+  },
+  {
+   "index": 43,
+   "cpu": "0x69052da429064551d72715b9d9e65c08ea7bc294",
+   "name": "STAR",
+   "nextId": 15,
+   "circuits": 14,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 3,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 9,
+     "table": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3
+     ],
+     "fingerprint": "76eb82a9578290ad",
+     "match": [
+      "FULL_ADDER"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 5,
+     "table": [
+      0,
+      1,
+      1,
+      2
+     ],
+     "fingerprint": "4db862dc2a91be23",
+     "match": [
+      "HALF_ADDER"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 3,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 4,
+     "table": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "fingerprint": "846a6b51872d843d",
+     "match": [
+      "MUX2"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 44,
+   "cpu": "0xe24983bcf577d826d439af89e389588bce141e3c",
+   "name": "Star Xu",
+   "nextId": 27,
+   "circuits": 26,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 2,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 3,
+     "table": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "fingerprint": "af22c6e27ff726a3",
+     "match": [
+      "NAND2"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 3,
+     "outputs": 2,
+     "latches": 0,
+     "gates": 9,
+     "table": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3
+     ],
+     "fingerprint": "76eb82a9578290ad",
+     "match": [
+      "FULL_ADDER"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 45,
+   "cpu": "0xea15a6ea338b40f62114302321221e80843d2884",
+   "name": "LayerZero",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 46,
+   "cpu": "0x2d1e5a8c6951b515032a76b701fc141f454f5666",
+   "name": "真宝玉8688",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 47,
+   "cpu": "0x82ed1420042c1b7e34f29b7e5cbd89f12d3caa5d",
+   "name": "BEM700U",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 48,
+   "cpu": "0x38a99f071b8a1bcf95cf7300169019f9307e45f3",
+   "name": "BEM800U",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  },
+  {
+   "index": 49,
+   "cpu": "0x70c9a34e612e485960f602d3fca9c417fac5cc48",
+   "name": "Chicken37",
+   "nextId": 37,
+   "circuits": 36,
+   "sample": [
+    {
+     "id": 1,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      1
+     ],
+     "fingerprint": "20aa4a5c87394b48",
+     "match": [
+      "CONST_1"
+     ]
+    },
+    {
+     "id": 2,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      1
+     ],
+     "fingerprint": "20aa4a5c87394b48",
+     "match": [
+      "CONST_1"
+     ]
+    },
+    {
+     "id": 3,
+     "inputs": 1,
+     "outputs": 1,
+     "latches": 0,
+     "gates": 1,
+     "table": [
+      1,
+      1
+     ],
+     "fingerprint": "20aa4a5c87394b48",
+     "match": [
+      "CONST_1"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 50,
+   "cpu": "0x38a080d36e2d79667ef72d686b82a87a49bb9de9",
+   "name": "TapeAPI",
+   "nextId": 0,
+   "circuits": 0,
+   "sample": []
+  }
+ ],
+ "chainId": 196,
+ "factory": "0x1f09daefa827f02cbb40967cc91b259763760761",
+ "cpuCount": 451,
+ "rpc": "https://rpc.xlayer.tech",
+ "updatedAt": "2026-11-25T15:04:49.184Z",
+ "stoppedReason": "fetch failed",
+ "summary": {
+  "processors": 9,
+  "withCircuits": 9,
+  "totalCircuits": 289,
+  "sampled": 27,
+  "identified": 24
+ }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TruthTable — verify what a TapeOut circuit really computes (X Layer)</title>
+<meta name="description" content="Read-only verifier for TapeOut circuits on X Layer: truth tables, state machines and spec proofs straight from the circuit's own on-chain eval()/step(). No wallet, no gas.">
+<style>
+:root{--bg:#0e1015;--card:#171a21;--line:#2a2f3a;--txt:#e9ebef;--mut:#9aa3b2;--acc:#7dd3fc;--ok:#4ade80;--bad:#f87171}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--txt)}
+main{max-width:920px;margin:0 auto;padding:20px 14px 60px}
+h1{margin:.2em 0 0;font-size:28px}h2{font-size:18px;margin:0 0 8px}
+.sub{color:var(--mut);margin:4px 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input,select,button{font:inherit;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:#0f1218;color:var(--txt)}
+button{cursor:pointer;background:#1e2532}button.pri{border-color:var(--acc);color:var(--acc)}
+table{border-collapse:collapse;margin-top:10px;font-family:ui-monospace,Menlo,monospace;font-size:13px}
+td,th{border:1px solid var(--line);padding:3px 10px;text-align:center}th{color:var(--mut);font-weight:500}
+.ok{color:var(--ok)}.bad{color:var(--bad)}.mut{color:var(--mut)}code{font-family:ui-monospace,Menlo,monospace;font-size:13px;color:var(--acc)}
+.pill{display:inline-block;padding:1px 8px;border:1px solid var(--line);border-radius:99px;margin:2px;font-size:12px}
+.scroll{overflow-x:auto}#list td{text-align:left}#list tr{cursor:pointer}#list tr:hover td{background:#1c2130}
+footer{color:var(--mut);font-size:13px;margin-top:24px}
+</style>
+<main>
+<h1>TruthTable</h1>
+<p class="sub">Verify what a TapeOut circuit on X Layer <b>really computes</b> — straight from the circuit's own on-chain <code>eval()</code> / <code>step()</code> view functions. No wallet, no signature, no gas. Labels are claims; truth tables are proof.</p>
+
+<div class="card">
+  <h2>1 · Pick a circuit</h2>
+  <div class="row">
+    Processor # <input id="cpu" value="0" size="4" inputmode="numeric">
+    Circuit #ID <input id="cid" value="1" size="5" inputmode="numeric">
+    <select id="spec"></select>
+    <button class="pri" id="go">Verify on-chain</button>
+  </div>
+  <p class="mut" id="fac">connecting to X Layer…</p>
+  <div class="row mut" style="font-size:13px">Try:
+    <button data-c="0/1/XOR2">0 · #1 (XOR)</button><button data-c="0/2/NAND2">0 · #2 (NAND)</button>
+    <button data-c="0/2/AND2">0 · #2 vs AND2 (fails)</button><button data-c="0/4/">0 · #4 (state machine)</button>
+  </div>
+</div>
+
+<div class="card" id="res" hidden><h2>2 · Result</h2><div id="out"></div></div>
+
+<div class="card">
+  <h2>Processor index <span class="mut" id="idxmeta" style="font-weight:400;font-size:13px"></span></h2>
+  <div class="row"><input id="q" placeholder="filter by name or address" style="flex:1;min-width:200px"><label class="mut"><input type="checkbox" id="nonempty" checked> only with circuits</label></div>
+  <div class="scroll"><table id="list" style="width:100%"></table></div>
+</div>
+
+<div class="card mut" style="font-size:13px">
+  <b>How it works.</b> Each TapeOut processor on X Layer is an ERC-721 contract; every circuit (NFT) exposes <code>circuitInfo(id)</code>, a combinational <code>eval(id, input)</code> and a sequential <code>step(id, state, input)</code>. TruthTable calls them for every input (and every latch state), fingerprints the result and matches it against a reference library — so an AI agent or a buyer can check a circuit before relying on it. Reads go from your browser directly to the X Layer RPC; nothing is stored or signed.<br><br>
+  <b>Honest limits.</b> Official TapeOut ABI docs were not found; selectors and the <code>circuitInfo</code> word order were derived from live bytecode and behaviour. Truth tables are capped (≤ 8 inputs; ≤ 6 state+input bits) to stay polite to public RPCs. The X Layer factory is an upgradeable proxy controlled by its owner — results describe the code live at read time.
+</div>
+<footer>TruthTable · MIT · <a style="color:var(--acc)" href="https://github.com/Sid4436/truthtable">source</a> · factory <code>0x1f09daefa827f02cbb40967cc91b259763760761</code> on X Layer (196)</footer>
+</main>
+<script type="module" src="app.js"></script>
+</html>

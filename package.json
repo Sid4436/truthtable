@@ -1,0 +1,13 @@
+{
+  "name": "truthtable",
+  "version": "0.2.0",
+  "description": "Read-only function verifier and indexer for TapeOut circuits on X Layer (chain 196)",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node test/offline.test.js && node test/live.test.js",
+    "test:offline": "node test/offline.test.js",
+    "index": "node cli/build-index.js"
+  }
+}
